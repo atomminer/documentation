@@ -1,0 +1,2 @@
+# documentation
+AtomMiner Documentation Project
