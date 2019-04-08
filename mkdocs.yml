@@ -1,0 +1,83 @@
+site_name: AtomMiner Documentation Project
+site_url: https://docs.atomminer.com
+site_author: AtomMiner
+site_description: AtomMiner Documentation Project
+site_favicon: img/favicon.ico
+copyright: 'Copyright &copy; 2015-2019 AtomMiner Ltd.'
+
+theme:
+  name: 'material'
+  favicon: 'img/favicon.ico'
+  logo: '/img/favicon-32x32.png'
+  custom_dir: 'theme'
+  site_dir: /site
+  use_directory_urls: true
+  highlightjs: true
+  palette:
+    primary: 'green'
+    accent: 'light green'
+  feature:
+    tabs: false
+    
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/atomminer/'
+    - type: 'twitter'
+      link: 'https://twitter.com/fpgaatomminer'
+    - type: 'telegram'
+      link: 'https://t.me/atomminer'
+  search:
+    language: 'en'
+
+extra_css:
+  - stylesheets/dark_theme.css
+  - stylesheets/codehilite.css
+  
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink:
+      repo_url_shortener: true
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+nav:
+    - 'AM Introduction': 'index.md'
+    - Software:
+      - 'Software Quick Start': 'software/index.md'
+      - 'Requirements': 'software/requirements.md'
+      - 'Downloads': 'software/downloads.md'
+      - 'Installation': 
+          - 'Linux Install': 'software/install.md'
+          - 'VirtualBox Install': 'software/vbox.md'
+          - 'VMWare Install': 'software/vmware.md'
+      - 'Config file': 'software/config.md'
+      - 'Running miner': 'software/running.md'
+      - 'CLI Arguments': 'software/cli.md'
+      - 'WWW server': 'software/www.md'
+      - 'API server': 'software/api.md'
+    - OS:
+      - 'OS Quick Start': /os/index.md
+    - Hardware: 
+      - Hw: 'empty.md'
+    - 'About': 'empty.md'
+
+
+
+  
