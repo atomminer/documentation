@@ -59,6 +59,7 @@ markdown_extensions:
 
 nav:
     - 'AM Introduction': 'index.md'
+    - 'Changelog' : 'changelog.md'
     - Software:
       - 'Software Quick Start': 'software/index.md'
       - 'Requirements': 'software/requirements.md'

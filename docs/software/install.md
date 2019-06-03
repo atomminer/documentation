@@ -17,7 +17,7 @@ $ sudo add-apt-repository 'deb https://apt.atomminer.com /'
 
 That's it!
 
-## Install
+## Install from Repository
 
 Now you can install `atomminer-cli` with your system packet manager:
 
@@ -28,6 +28,15 @@ sudo apt-get install atomminer-cli
 All files will be installed to `/var/atomminer/`. You can edit /var/atomminer/atomminer.conf with your credentials and start it by typing `atomminer-cli` in terminal.
 
 ### Manual Install
+
+In case .deb installer was downloaded manually, you will need to install it using following command:
+
+```
+sudo dpkg -i atomminer-cli_1.0.3RC3_armhf.deb
+```
+replace `atomminer-cli_1.0.3RC3_armhf.deb` with the filename of the downloaded file.
+
+### Generic Linux Install
 
 It is recommended to have all files in /var/atomminer which is used by `atomminer-cli` by default. This folder can be changed to another location by adding alternative path, for instance `-data=/home/pi/myatommyner` which is described in [Configuration file](/software/cli) section.
 
@@ -44,14 +53,14 @@ The directory layout if atomminer-cli install location is as follows:
 ├─ firmware/			# rw
 ├─ log/					# rw
 ├─ settings/			# rw
-|  ├─ atomminer.conf	# rw Refer to Configuration section
-├─ www/					# rw Assets for built-in WWW server.
-|  ├─ css/				# r
-   ├─ .... 				# r
+├─ www/					# rw  Assets for built-in WWW server.
+|  ├─ css/				# rw
+   ├─ .... 				# rw
+├─ atomminer.conf	    # rw  Refer to Configuration section
 ├─ atomminer 			# rwx Helper shell script
 ├─ atomminer-cli 		# rwx Main binary
 ├─ am-fwupdate 			# rwx Firmwate update utility 
-├─ atomminer.png		# r   Icon image 
+├─ atomminer.png		# rw  Icon image 
 ```
 
 atomminer-cli will need to have -rw- access to AM01 miners connected to USB port. By default, for security reasons Linux system will assign 660 permissions to newly connected USB devices. You will have an option to run atomminer-cli as superuser if running on minimal root-mode installation, which could potentially be a security threat, or to create a udev-based USB permission rule which assigns any custom permission mode of your choice.

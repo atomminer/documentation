@@ -4,6 +4,10 @@
 //////////////////
 */
 
+.changelog-list li {
+  margin-bottom: 0!important;
+}
+
 .md-header, .md-tabs {
 	background-color: darkslategray !important;
 }
