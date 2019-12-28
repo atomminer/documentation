@@ -53,9 +53,6 @@ The directory layout if atomminer-cli install location is as follows:
 ├─ firmware/			# rw
 ├─ log/					# rw
 ├─ settings/			# rw
-├─ www/					# rw  Assets for built-in WWW server.
-|  ├─ css/				# rw
-   ├─ .... 				# rw
 ├─ atomminer.conf	    # rw  Refer to Configuration section
 ├─ atomminer 			# rwx Helper shell script
 ├─ atomminer-cli 		# rwx Main binary

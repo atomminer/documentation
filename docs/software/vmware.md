@@ -1,13 +1,13 @@
 # VMWare Installation
 
-Pre-installed VMware image can be downloadede here: <a target="_blank" href="https://static.atomminer.com/os/atomminer_1.0.3RC3.ova">atomminer_1.0.3RC3.ova</a>
+Pre-installed VMware image can be downloadede from official <a target="_blank" href="https://atomminer.com/downloads">Downloads</a>
 
 !!! Note 
 	Please consult with your legal adviser if you can operate free version of VMware for mining without violating their <a target="_blank" href="https://www.vmware.com/download/eula/universal_eula.html">EULA</a>
 
 Steps here are provided for VMWare Workstation Player 15, but should be identical for other VMWare versions and products.
 
-Hit Open a Virtual Machine and point it to downloaded atomminer_1.0.3RC3.ova file:
+Hit Open a Virtual Machine and point it to downloaded .ova file:
 
 ![Screenshot](/img/vm-import.png)
 
@@ -26,7 +26,7 @@ Power on the machine and let it boot:
 ## Settign up mining software
 
 !!! Warning
-	By default, VM is configured to mine to donate@atomminer.com email address. It is highly recommended that you change username to your registere email or setup anonymous wallets in the [configuration file](/software/config/) before connecting miners to it.
+	By default, VM is configured to mine to donate@atomminer.com email address. It is highly recommended that you change username to your registered email or setup anonymous wallets in the [configuration file](/software/config/) before connecting miners to it.
 
 Miner's log screen is bound to Linux's default tty1 and login screen is on the tty2. SSH server is installed in the VM by default, but disabled for security reasons. It is **HIGHLY RECOMMENDED** to change default password before enabling SSH on the VM.
 

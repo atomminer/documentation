@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-Current Software Version: `1.0.3 (Pre-release)`
+Current Software Version: `1.0.3RC6`
 
 Control software is designed to run native under most modern Linux OS, while was tested unde Ubuntu and Debian distros: Ubuntu 16.04, Ubuntu 16.10, Ubuntu 17.04, Ubuntu 17.10, Ubuntu 18.04, Debian 8, Debian 9. Other distribution should work no as well, plese refer to [Requirements](/software/requirements) and [Installation](/software/install) sections for more details.
 

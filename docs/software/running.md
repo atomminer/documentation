@@ -30,13 +30,13 @@ AtomMiner CLI Miner 1.0.3RC3
 In case atomminer-cli is already running on this machine, information about running instance will be printed out: running process ID, uptime and whether API and/or WWW servers are started.
 ```
 ~$ atomminer-cli
-AtomMiner CLI Miner 1.0.3RC3 
-  -- built on Jun  1 2019 18:59:15 with x86_64 GCC 5.4.0 20160609
+AtomMiner CLI Miner 1.0.3RC6 
+  -- built on Dec 21 2019 08:43:41 with x86_64 GCC 5.4.0 20160609
 
-AtomMiner CLI v.1.0.3RC3 is already running with PID 7210.
-   Status :  Running  with PID: 7210 for 00:00:36
-   API srv:  Off 
-   WWW srv:  Off 
+AtomMiner CLI v.1.0.3RC6 is already running with PID 26325.
+   Status :  Running  with PID: 26325 for 2 days 53:46:42
+   API srv:  On   at http://esdev:9123
+   Cloud  :  Off
 ```
 
 ## Stop miner

@@ -49,6 +49,10 @@ tbody {
   background-color: #484848 !important;
 }
 
+#tbl1 td {
+  padding: 0.2rem .8rem !important;
+}
+
 /*
 ////////////////////
 // Navigation bar //

@@ -72,7 +72,17 @@ nav:
       - 'Running miner': 'software/running.md'
       - 'CLI Arguments': 'software/cli.md'
       - 'WWW server': 'software/www.md'
-      - 'API server': 'software/api.md'
+      - 'API server': 
+          - 'API Overview' : 'software/api.md'
+          - 'App Stats'  : 'software/api-get-stats.md'
+          - 'App Status'  : 'software/api-get-status.md'
+          - 'App Stop/Restart'  : 'software/api-get-stop.md'
+          - 'Device List'  : 'software/api-get-device.md'
+          - 'Firmware List'  : 'software/api-get-firmware.md'
+          - 'Pool List'  : 'software/api-get-pool.md'
+          - 'SysInfo call'  : 'software/api-get-sysinfo.md'
+          - 'Log call'  : 'software/api-get-log.md'
+      - 'Integration' : 'software/integration.md'
     - OS:
       - 'OS Quick Start': /os/index.md
     - Hardware: 
