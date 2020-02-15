@@ -3,6 +3,15 @@
 // Main content //
 //////////////////
 */
+.md-typeset details>summary {
+  background-color: rgba(68,138,255,.1)!important;
+}
+.md-typeset details.question>summary:before {
+  color: #b8b9b7;
+}
+.md-typeset details.question {
+    border-left-color: #b8b9b7;
+}
 
 .changelog-list li {
   margin-bottom: 0!important;
